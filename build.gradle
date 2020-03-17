@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.zhangyj'
+version '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.47.Final'
+    compile group: 'cn.hutool', name: 'hutool-all', version: '5.2.3'
+}
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
