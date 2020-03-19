@@ -2,9 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>WebSokket客户端</title>
+    <style>
+        .textAreaClass{
+            height: 250px;
+            width: 500px;
+        }
+    </style>
+    <script>
+        var socket;
+        if(window.WebSocket){
+            socket = new WebSocket("ws://localhost:8899/ws");
+            socket.onmessage = function (ev) {
+
+            }
+            socket.onopen = function (ev) {
+
+            }
+            socket.onclose = function (ev) {
+
+            }
+        }else{
+            alert("浏览器不支持WebSocket!")
+        }
+
+        function sendData(sendText) {
+            if(socket.readyState === WebSocket.OPEN){
+
+            }
+        }
+    </script>
 </head>
 <body>
-$END$
+<form>
+    <h3>WebSocket发送端</h3>
+    <textarea id="sendText" class="textAreaClass"></textarea>
+    <input type="button" value="发送" onclick="sendData(this.form.sendText.value)">
+    <h3>WebSocket接受端</h3>
+    <textarea id="receiveText" class="textAreaClass"></textarea>
+    <input type="button" value="清空">
+</form>
 </body>
 </html>

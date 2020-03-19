@@ -16,6 +16,9 @@ import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
 
+/**
+ * @author ZHANG-YJ
+ */
 public class MyWebSocketServer {
 
     public static void main(String[] args) throws InterruptedException {
@@ -29,7 +32,7 @@ public class MyWebSocketServer {
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
-                        protected void initChannel(SocketChannel ch) throws Exception {
+                        protected void initChannel(SocketChannel ch) {
                             ChannelPipeline pipeline = ch.pipeline();
                             // http协议
                             pipeline.addLast(new HttpServerCodec());
@@ -37,7 +40,7 @@ public class MyWebSocketServer {
                             pipeline.addLast(new ChunkedWriteHandler());
                             // 聚合http请求，而不是分块
                             pipeline.addLast(new HttpObjectAggregator(8092));
-                            //
+                            // 支持websocket协议， /ws为地址
                             pipeline.addLast(new WebSocketServerProtocolHandler("/ws"));
                             pipeline.addLast(new MyWebSocketServerHandler());
                         }
