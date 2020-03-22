@@ -1,4 +1,4 @@
-package io.zhangyj.protobuf;
+package io.zhangyj.netty.sisth8protobuf.protobuf;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 
@@ -16,5 +16,6 @@ public class ProtoBufTest {
         System.out.println(student1.getName());
         System.out.println(student1.getAddress());
         System.out.println(student1.getAge());
+
     }
 }

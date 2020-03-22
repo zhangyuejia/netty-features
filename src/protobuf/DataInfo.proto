@@ -1,10 +1,26 @@
 syntax = "proto2";
 package io.zhangyj.protobuf;
 option optimize_for = SPEED;
-option java_package = "io.zhangyj.protobuf";
+option java_package = "io.zhangyj.netty.sisth8protobuf.protobuf";
 option java_outer_classname = "DataInfo";
+message Data{
+    enum DataType{
+        Student = 1;
+        Teacher = 2;
+    }
+
+    required DataType dataType = 1;
+    oneof oneOfData{
+        Student student = 2;
+        Teacher teacher = 3;
+    }
+}
 message Student{
     required string name = 1;
     optional int32 age = 2;
     optional string address = 3;
+}
+message Teacher{
+    required string name = 1;
+    optional string lessonName = 2;
 }
