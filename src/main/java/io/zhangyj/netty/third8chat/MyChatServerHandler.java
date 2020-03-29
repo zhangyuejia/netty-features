@@ -1,4 +1,4 @@
-package io.zhangyj.netty.thirde8chat;
+package io.zhangyj.netty.third8chat;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

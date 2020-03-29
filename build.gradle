@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'io.zhangyj'
@@ -14,9 +15,11 @@ repositories {
 
 dependencies {
     compile group: 'io.netty', name: 'netty-all', version: '4.1.47.Final'
-    compile group: 'cn.hutool', name: 'hutool-all', version: '5.2.3'
+//    compile group: 'cn.hutool', name: 'hutool-all', version: '5.2.3'
     compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.11.4'
     compile group: 'com.google.protobuf', name: 'protobuf-java-util', version: '3.11.4'
     compile group: 'org.apache.thrift', name: 'libthrift', version: '0.13.0'
+//    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+
 }
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'

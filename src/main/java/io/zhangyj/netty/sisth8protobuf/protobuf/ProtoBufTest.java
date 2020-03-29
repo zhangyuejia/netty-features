@@ -1,6 +1,7 @@
 package io.zhangyj.netty.sisth8protobuf.protobuf;
 
 import com.google.protobuf.InvalidProtocolBufferException;
+import io.zhangyj.protobuf.DataInfo;
 
 /**
  * @author ZHANG-YJ

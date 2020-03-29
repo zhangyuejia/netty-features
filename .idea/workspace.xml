@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485985d1-5b3f-4a4a-82f7-508a1af70be5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/DataInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/ProtoBufTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/ProtoBufTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/protobuf/DataInfo.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/DataInfo.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/DataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/DataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/DataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/ProtoBufTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/ProtoBufTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/thirde8chat/MyChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/third8chat/MyChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/thirde8chat/MyChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/third8chat/MyChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/thirde8chat/MyChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/third8chat/MyChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/thirde8chat/MyChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/third8chat/MyChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thrift/data.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -31,24 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1011#1292#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="390">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,81 +54,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java">
+        <entry file="file://$PROJECT_DIR$/src/thrift/data.thrift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="100" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#944#1463#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="448">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/second8communicate/MyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="29" column="70" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="70" />
-              <folding>
-                <element signature="e#1840#1841#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/DataInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="883" column="36" lean-forward="true" selection-start-line="883" selection-start-column="36" selection-end-line="883" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/protobuf/DataInfo.proto">
+        <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/PersonService.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/ProtoBufTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/second8communicate/MyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-              <folding>
-                <element signature="e#966#1573#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/constants.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -152,6 +99,7 @@
       <find>PhoneType</find>
       <find>AddPerso</find>
       <find>addPerson</find>
+      <find>shire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/fifth8websocket/MyWebSocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/fifth8websocket/MyWebSocketServerHandler.java" />
         <option value="$PROJECT_DIR$/webapp/webSocket.html" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook.proto" />
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/AddPerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/ListPeople.java" />
@@ -179,20 +126,34 @@
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClientHandler.java" />
         <option value="$PROJECT_DIR$/src/protobuf/DataInfo.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/DataException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThirftServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThirftClient.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftServer.java" />
+        <option value="$PROJECT_DIR$/src/thrift/data.thrift" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="950" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +185,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,6 +202,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="seventh8thirft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="sisth8protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -241,6 +222,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="sisth8protobuf" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
@@ -251,16 +233,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="sisth8protobuf" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="sisth8protobuf" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
@@ -269,14 +242,78 @@
               <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="third8chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
               <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangyj" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-features" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-features" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,14 +321,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.zhangyj.netty.sisth8protobuf.client" />
       <recent name="io.zhangyj.netty.sisth8protobuf.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-improve\netty\netty-features\src\main\java\io\zhangyj\netty\seventh8thirft" />
+      <recent name="D:\idea-improve\netty\netty-features\src\main\java" />
+      <recent name="D:\idea-improve\netty\netty-features\src\thrift" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.zhangyj.netty.sisth8protobuf.protobuf" />
@@ -312,61 +356,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProtoBufTest (1)">
-    <configuration name="ListPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.sixth8protobuf.ListPeople" />
-      <module name="netty-features.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zhangyj.netty.sixth8protobuf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProtoBufClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.sisth8protobuf.client.ProtoBufClient" />
-      <module name="netty-features.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zhangyj.netty.sisth8protobuf.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProtoBufServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.sisth8protobuf.server.ProtoBufServer" />
-      <module name="netty-features.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zhangyj.netty.sisth8protobuf.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProtoBufTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.sisth8protobuf.protobuf.ProtoBufTest" />
-      <module name="netty-features.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zhangyj.netty.sisth8protobuf.protobuf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThriftClient">
     <configuration name="ProtoBufTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.protobuf.ProtoBufTest" />
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.sisth8protobuf.protobuf.ProtoBufTest" />
       <module name="netty-features.main" />
       <extension name="coverage">
         <pattern>
@@ -378,20 +370,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ListPeople" />
-      <item itemvalue="Application.ProtoBufTest" />
-      <item itemvalue="Application.ProtoBufServer" />
-      <item itemvalue="Application.ProtoBufClient" />
-      <item itemvalue="Application.ProtoBufTest (1)" />
-    </list>
+    <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.seventh8thirft.ThriftClient" />
+      <module name="netty-features.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zhangyj.netty.seventh8thirft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThriftServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.netty.seventh8thirft.ThriftServer" />
+      <module name="netty-features.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zhangyj.netty.seventh8thirft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProtoBufTest (1)" />
-        <item itemvalue="Application.ProtoBufClient" />
-        <item itemvalue="Application.ProtoBufServer" />
-        <item itemvalue="Application.ProtoBufTest" />
-        <item itemvalue="Application.ListPeople" />
+        <item itemvalue="Application.ThriftClient" />
+        <item itemvalue="Application.ThriftServer" />
       </list>
     </recent_temporary>
   </component>
@@ -410,38 +418,54 @@
       <workItem from="1584622940703" duration="3097000" />
       <workItem from="1584753595764" duration="10499000" />
       <workItem from="1584844977947" duration="5768000" />
-      <workItem from="1584859761483" duration="16944000" />
+      <workItem from="1584859761483" duration="17063000" />
+      <workItem from="1584969599342" duration="1541000" />
+      <workItem from="1585055447877" duration="1895000" />
+      <workItem from="1585232566536" duration="161000" />
+      <workItem from="1585232809872" duration="3800000" />
+      <workItem from="1585445794633" duration="920000" />
+      <workItem from="1585446758935" duration="7702000" />
     </task>
+    <task id="LOCAL-00001" summary="提交thrift">
+      <created>1585289052204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585289052204</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38293000" />
+    <option name="totallyTimeSpent" value="54431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24463807" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29320112" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26407507" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.58498585" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.291372" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,9 +477,48 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26407507" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.58498585" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.291372" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交thrift" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交thrift" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/first8http/TestServerHttpHandler.java">
@@ -501,13 +564,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/io/zhangyj/netty/sixth8protobuf/AddressBookProtos.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/AddressBookProtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="2692" column="21" selection-start-line="2692" selection-start-column="21" selection-end-line="2692" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/AddressBookProtos.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/fifth8websocket/MyWebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -515,40 +572,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/ListPeople.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/AddPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook.proto" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/ListPeople.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sixth8protobuf/AddPerson.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.11.4/1e3a86dde8ecf9410e23f22a67ad062316fe94a/protobuf-java-3.11.4-sources.jar!/com/google/protobuf/AbstractMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -624,32 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/DataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="518" column="50" selection-start-line="518" selection-start-column="50" selection-end-line="518" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/ProtoBufTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="46" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1011#1292#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/ProtoBufTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/second8communicate/MyClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -691,20 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/DataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="883" column="36" lean-forward="true" selection-start-line="883" selection-start-column="36" selection-end-line="883" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/protobuf/DataInfo.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/protobuf/ProtoBufTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -712,15 +699,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java">
+    <entry file="file://$PROJECT_DIR$/src/thrift/demo.thrift" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorial_java_src_CalculatorHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/protobuf/DataInfo.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="100" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="100" />
+        <state relative-caret-position="448">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/gen-java/thitft/generated/DataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/DataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/protobuf/DataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.thrift/libthrift/0.13.0/148e9083074a6b12042998f380df6ae84ca812b1/libthrift-0.13.0-sources.jar!/org/apache/thrift/transport/TIOStreamTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="139" column="12" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.thrift/libthrift/0.13.0/148e9083074a6b12042998f380df6ae84ca812b1/libthrift-0.13.0-sources.jar!/org/apache/thrift/TServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.thrift/libthrift/0.13.0/148e9083074a6b12042998f380df6ae84ca812b1/libthrift-0.13.0-sources.jar!/org/apache/thrift/transport/TFramedTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="171" column="15" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/thrift/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/server/ProtoBufServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#944#1463#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/sisth8protobuf/client/ProtoBufClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zhangyj/netty/seventh8thirft/ThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/constants.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/gen-py/py/thrift/generated/PersonService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/data.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>

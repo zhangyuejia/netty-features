@@ -1,4 +1,5 @@
 namespace java thitft.generated
+namespace py py.thrift.generated
 
 typedef i16 short
 typedef i32 int

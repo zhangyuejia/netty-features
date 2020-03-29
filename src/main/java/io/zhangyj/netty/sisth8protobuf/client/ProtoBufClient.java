@@ -11,7 +11,7 @@ import io.netty.handler.codec.protobuf.ProtobufDecoder;
 import io.netty.handler.codec.protobuf.ProtobufEncoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder;
 import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
-import io.zhangyj.netty.sisth8protobuf.protobuf.DataInfo;
+import io.zhangyj.protobuf.DataInfo;
 
 /**
  * @author ZHANG-YJ

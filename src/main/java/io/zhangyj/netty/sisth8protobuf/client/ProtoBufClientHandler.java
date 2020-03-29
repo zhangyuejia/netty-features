@@ -2,7 +2,7 @@ package io.zhangyj.netty.sisth8protobuf.client;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.zhangyj.netty.sisth8protobuf.protobuf.DataInfo;
+import io.zhangyj.protobuf.DataInfo;
 
 /**
  * @author ZHANG-YJ
