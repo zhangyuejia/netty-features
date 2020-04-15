@@ -1,0 +1,230 @@
+[DEBUG]2020-04-05 16:00:08,290 InternalLoggerFactory.java - Using Log4J as the default logging framework
+[DEBUG]2020-04-05 16:00:08,315 PlatformDependent.java - Platform: Windows
+[DEBUG]2020-04-05 16:00:08,326 PlatformDependent0.java - -Dio.netty.noUnsafe: false
+[DEBUG]2020-04-05 16:00:08,327 PlatformDependent0.java - Java version: 8
+[DEBUG]2020-04-05 16:00:08,333 PlatformDependent0.java - sun.misc.Unsafe.theUnsafe: available
+[DEBUG]2020-04-05 16:00:08,336 PlatformDependent0.java - sun.misc.Unsafe.copyMemory: available
+[DEBUG]2020-04-05 16:00:08,337 PlatformDependent0.java - java.nio.Buffer.address: available
+[DEBUG]2020-04-05 16:00:08,340 PlatformDependent0.java - direct buffer constructor: available
+[DEBUG]2020-04-05 16:00:08,343 PlatformDependent0.java - java.nio.Bits.unaligned: available, true
+[DEBUG]2020-04-05 16:00:08,346 PlatformDependent0.java - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG]2020-04-05 16:00:08,347 PlatformDependent0.java - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG]2020-04-05 16:00:08,348 PlatformDependent.java - sun.misc.Unsafe: available
+[DEBUG]2020-04-05 16:00:08,351 PlatformDependent.java - -Dio.netty.tmpdir: C:\Users\ZHANG-YJ\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG]2020-04-05 16:00:08,352 PlatformDependent.java - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG]2020-04-05 16:00:08,357 PlatformDependent.java - -Dio.netty.maxDirectMemory: 1890582528 bytes
+[DEBUG]2020-04-05 16:00:08,358 PlatformDependent.java - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG]2020-04-05 16:00:08,366 CleanerJava6.java - java.nio.ByteBuffer.cleaner(): available
+[DEBUG]2020-04-05 16:00:08,367 PlatformDependent.java - -Dio.netty.noPreferDirect: false
+[DEBUG]2020-04-05 16:00:08,645 MultithreadEventLoopGroup.java - -Dio.netty.eventLoopThreads: 8
+[DEBUG]2020-04-05 16:00:08,730 InternalThreadLocalMap.java - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG]2020-04-05 16:00:08,730 InternalThreadLocalMap.java - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG]2020-04-05 16:00:08,755 NioEventLoop.java - -Dio.netty.noKeySetOptimization: false
+[DEBUG]2020-04-05 16:00:08,756 NioEventLoop.java - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG]2020-04-05 16:00:08,795 PlatformDependent.java - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG]2020-04-05 16:00:11,781 ResourceLeakDetector.java - -Dio.grpc.netty.shaded.io.netty.leakDetection.level: simple
+[DEBUG]2020-04-05 16:00:11,782 ResourceLeakDetector.java - -Dio.grpc.netty.shaded.io.netty.leakDetection.targetRecords: 4
+[DEBUG]2020-04-05 16:00:11,812 AbstractByteBuf.java - -Dio.grpc.netty.shaded.io.netty.buffer.checkAccessible: true
+[DEBUG]2020-04-05 16:00:11,812 AbstractByteBuf.java - -Dio.grpc.netty.shaded.io.netty.buffer.checkBounds: true
+[DEBUG]2020-04-05 16:00:11,816 ResourceLeakDetectorFactory.java - Loaded default ResourceLeakDetector: io.grpc.netty.shaded.io.netty.util.ResourceLeakDetector@5e060564
+[DEBUG]2020-04-05 16:00:12,119 PooledByteBufAllocator.java - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG]2020-04-05 16:00:12,120 PooledByteBufAllocator.java - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG]2020-04-05 16:00:12,120 PooledByteBufAllocator.java - -Dio.netty.allocator.pageSize: 8192
+[DEBUG]2020-04-05 16:00:12,121 PooledByteBufAllocator.java - -Dio.netty.allocator.maxOrder: 11
+[DEBUG]2020-04-05 16:00:12,121 PooledByteBufAllocator.java - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG]2020-04-05 16:00:12,122 PooledByteBufAllocator.java - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG]2020-04-05 16:00:12,123 PooledByteBufAllocator.java - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG]2020-04-05 16:00:12,123 PooledByteBufAllocator.java - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG]2020-04-05 16:00:12,124 PooledByteBufAllocator.java - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG]2020-04-05 16:00:12,124 PooledByteBufAllocator.java - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG]2020-04-05 16:00:12,125 PooledByteBufAllocator.java - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG]2020-04-05 16:00:12,126 PooledByteBufAllocator.java - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG]2020-04-05 16:00:12,126 PooledByteBufAllocator.java - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG]2020-04-05 16:00:12,191 DefaultChannelId.java - -Dio.netty.processId: 9408 (auto-detected)
+[DEBUG]2020-04-05 16:00:12,199 NetUtil.java - -Djava.net.preferIPv4Stack: false
+[DEBUG]2020-04-05 16:00:12,200 NetUtil.java - -Djava.net.preferIPv6Addresses: false
+[DEBUG]2020-04-05 16:00:14,089 NetUtil.java - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG]2020-04-05 16:00:14,090 NetUtil.java - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG]2020-04-05 16:00:15,487 DefaultChannelId.java - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:01 (auto-detected)
+[DEBUG]2020-04-05 16:00:15,555 ByteBufUtil.java - -Dio.netty.allocator.type: pooled
+[DEBUG]2020-04-05 16:00:15,557 ByteBufUtil.java - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG]2020-04-05 16:00:15,558 ByteBufUtil.java - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG]2020-04-05 16:00:15,626 Recycler.java - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG]2020-04-05 16:00:15,626 Recycler.java - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG]2020-04-05 16:00:15,626 Recycler.java - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG]2020-04-05 16:00:15,627 Recycler.java - -Dio.netty.recycler.ratio: 8
+[DEBUG]2020-04-05 16:00:15,665 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] OUTBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+[DEBUG]2020-04-05 16:00:15,684 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+[DEBUG]2020-04-05 16:00:15,726 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+[DEBUG]2020-04-05 16:00:15,730 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] OUTBOUND SETTINGS: ack=true
+[DEBUG]2020-04-05 16:00:15,737 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+[DEBUG]2020-04-05 16:00:15,742 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND SETTINGS: ack=true
+[DEBUG]2020-04-05 16:00:15,892 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:authority: localhost:8899, :path: /io.zhangyj.proto3.GrpcServer/GetRealName, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.28.1, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+[DEBUG]2020-04-05 16:00:15,917 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] OUTBOUND DATA: streamId=3 padding=0 endStream=true length=12 bytes=00000000070a057a68616e67
+[DEBUG]2020-04-05 16:00:15,941 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+[DEBUG]2020-04-05 16:00:15,951 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND DATA: streamId=3 padding=0 endStream=false length=14 bytes=00000000090a077a68616e67796a
+[DEBUG]2020-04-05 16:00:15,963 AbstractInternalLogger.java - [id: 0xb78b9f3c, L:/127.0.0.1:63374 - R:localhost/127.0.0.1:8899] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+[INFO]2020-04-05 16:04:49,746 MyClient.java - send user name:zhang
+[INFO]2020-04-05 16:04:53,981 MyClient.java - receive real name:zhangyj
+[INFO]2020-04-05 16:05:55,954 MyClient.java - send user name:zhang
+[INFO]2020-04-05 16:06:01,315 MyClient.java - receive real name:zhangyj
+[INFO]2020-04-05 16:08:01,069 MyClient.java - send user name:zhang
+[INFO]2020-04-05 16:08:05,818 MyClient.java - receive real name:zhangyj
+[INFO]2020-04-05 16:08:40,224 MyService.java - Server started, listening on 8899
+[INFO]2020-04-05 16:08:48,133 MyClient.java - send user name:zhang
+[INFO]2020-04-05 16:08:52,635 MyService.java - receive user name:zhang
+[INFO]2020-04-05 16:08:52,704 MyClient.java - receive real name:zhangyj
+[INFO]2020-04-05 17:14:56,899 MyClient.java - send user name:zhang
+[INFO]2020-04-05 17:15:24,368 MyClient.java - send user name:zhang
+[INFO]2020-04-05 17:26:29,033 MyService.java - Server started, listening on 8899
+[ERROR]2020-04-05 17:26:33,149 MyService.java - JVM shutdown. Start to stop the server
+[INFO]2020-04-05 17:28:42,541 MyService.java - Server started, listening on 8899
+[ERROR]2020-04-05 17:28:42,850 MyService.java - JVM shutdown. Stop the server
+[INFO]2020-04-05 17:28:58,935 MyService.java - Server started, listening on 8899
+[ERROR]2020-04-05 17:28:59,245 MyService.java - JVM shutdown. Stop the server
+[INFO]2020-04-05 21:36:46,949 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-05 21:37:47,915 GrpcClient.java - send user name:zhang
+[INFO]2020-04-05 21:41:11,660 GrpcClient.java - send user name:zhang
+[INFO]2020-04-05 21:41:15,942 GrpcServer.java - receive user name:zhang
+[INFO]2020-04-05 21:41:15,999 GrpcClient.java - receive real name:zhangyj
+[INFO]2020-04-05 22:37:59,918 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-05 22:38:06,219 GrpcClient.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-05 22:38:10,141 MyServiceImpl.java - 接收到客户端信息:小林
+[INFO]2020-04-05 22:38:10,210 GrpcClient.java - 1.获得服务端响应：小章
+[INFO]2020-04-05 22:38:10,211 GrpcClient.java - -------------------------------
+[INFO]2020-04-05 22:38:10,230 GrpcClient.java - 2.请求服务端getStudentsByAge，参数:20
+[INFO]2020-04-05 22:38:10,235 MyServiceImpl.java - 接收到客户端信息:20
+[INFO]2020-04-05 22:38:10,257 GrpcClient.java - 2.获得服务端响应，年龄:20 名字：张三
+[INFO]2020-04-05 22:38:10,258 GrpcClient.java - 2.获得服务端响应，年龄:30 名字：李四
+[INFO]2020-04-05 22:38:10,259 GrpcClient.java - 2.获得服务端响应，年龄:40 名字：王五
+[INFO]2020-04-06 16:35:20,351 GrpcClient.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-06 16:35:48,385 GrpcClient.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-06 16:36:01,270 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-06 16:36:20,184 GrpcClient.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-06 16:36:24,687 MyServiceImpl.java - 接收到客户端信息:小林
+[INFO]2020-04-06 16:36:24,778 GrpcClient.java - 1.获得服务端响应：小章
+[INFO]2020-04-06 16:39:02,937 GrpcClient.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-06 16:39:07,436 MyServiceImpl.java - 接收到客户端信息:小林
+[INFO]2020-04-06 16:39:07,483 GrpcClient.java - 1.获得服务端响应：小章
+[INFO]2020-04-06 16:39:07,484 GrpcClient.java - -------------------------------
+[INFO]2020-04-06 16:39:07,504 GrpcClient.java - 2.请求服务端getStudentsByAge，参数:20
+[INFO]2020-04-06 16:39:07,506 MyServiceImpl.java - 接收到客户端信息:20
+[INFO]2020-04-06 16:39:07,529 GrpcClient.java - 2.获得服务端响应，年龄:20 名字：张三
+[INFO]2020-04-06 16:39:07,530 GrpcClient.java - 2.获得服务端响应，年龄:30 名字：李四
+[INFO]2020-04-06 16:39:07,533 GrpcClient.java - 2.获得服务端响应，年龄:40 名字：王五
+[INFO]2020-04-06 16:39:07,534 GrpcClient.java - -------------------------------
+[INFO]2020-04-06 17:04:02,173 GrpcClientTest.java - 测试客户端流
+[INFO]2020-04-06 17:04:06,462 MyServiceImpl.java - 接收到客户端信息:20
+[INFO]2020-04-06 17:04:06,463 MyServiceImpl.java - 接收到客户端信息:30
+[INFO]2020-04-06 17:04:06,464 MyServiceImpl.java - 接收到客户端信息:40
+[INFO]2020-04-06 17:04:06,508 GrpcClientTest.java - 接收到服务端数据
+[INFO]2020-04-06 17:04:06,513 GrpcClientTest.java - 姓名：小林,年龄：-2104488870
+[INFO]2020-04-06 17:04:06,514 GrpcClientTest.java - 姓名：小章,年龄：-1644769054
+[INFO]2020-04-06 17:04:06,515 GrpcClientTest.java - 结束
+[INFO]2020-04-06 17:15:00,872 GrpcClientTest.java - 测试双向流PRC
+[ERROR]2020-04-06 17:15:05,343 GrpcClientTest.java - 发生错误
+io.grpc.StatusRuntimeException: UNIMPLEMENTED: Method not found: io.zhangyj.proto3.MyService/biTalk
+	at io.grpc.Status.asRuntimeException(Status.java:533)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:449)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:426)
+	at io.grpc.internal.ClientCallImpl.access$500(ClientCallImpl.java:66)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.close(ClientCallImpl.java:689)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl.access$900(ClientCallImpl.java:577)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:751)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:740)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR]2020-04-06 17:15:11,307 GrpcServer.java - JVM shutdown. Stop the server
+[INFO]2020-04-06 17:15:29,186 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-06 17:15:38,291 GrpcClientTest.java - 测试双向流PRC
+[INFO]2020-04-06 17:15:43,302 MyServiceImpl.java - 双向流：收到客户端数据84f16da5-9ce6-48a2-b726-0bb63774c60a
+[INFO]2020-04-06 17:15:43,305 MyServiceImpl.java - 双向流：收到客户端数据37a44d43-04a6-4930-90b4-a9626fa1bd87
+[INFO]2020-04-06 17:15:43,307 MyServiceImpl.java - 双向流：收到客户端数据08d64834-2444-4212-af3c-fb6222896fd9
+[INFO]2020-04-06 17:15:43,313 MyServiceImpl.java - 双向流：收到客户端数据8334d0c6-5a7a-4cca-b88b-0e9aca0ffb6c
+[ERROR]2020-04-06 17:15:49,039 MyServiceImpl.java - 发生错误
+io.grpc.StatusRuntimeException: CANCELLED: cancelled before receiving half close
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:275)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR]2020-04-06 17:16:37,241 GrpcServer.java - JVM shutdown. Stop the server
+[INFO]2020-04-06 17:16:50,182 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-06 17:17:03,103 GrpcClientTest.java - 测试双向流PRC
+[INFO]2020-04-06 17:17:07,730 MyServiceImpl.java - 双向流：收到客户端数据2dc45a65-7dee-44c7-b8e4-fbb4ea984466
+[INFO]2020-04-06 17:17:07,734 MyServiceImpl.java - 双向流：收到客户端数据8e5eff90-8646-49db-8ca1-993c28d7509b
+[INFO]2020-04-06 17:17:07,736 MyServiceImpl.java - 双向流：收到客户端数据0390598f-31a1-400f-b872-58cc7b0908aa
+[INFO]2020-04-06 17:17:07,741 MyServiceImpl.java - 双向流：收到客户端数据140cf269-8f4b-47ea-850e-e1b70d24cf5f
+[ERROR]2020-04-06 17:17:13,811 MyServiceImpl.java - 发生错误
+io.grpc.StatusRuntimeException: CANCELLED: cancelled before receiving half close
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:275)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[ERROR]2020-04-06 17:18:29,366 GrpcServer.java - JVM shutdown. Stop the server
+[INFO]2020-04-06 17:19:24,618 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-06 17:19:30,554 GrpcClientTest.java - 测试双向流PRC
+[INFO]2020-04-06 17:19:35,262 MyServiceImpl.java - 双向流：收到客户端数据da232465-6cf4-4e26-8fca-24da49227fcd
+[INFO]2020-04-06 17:19:35,334 MyServiceImpl.java - 双向流：收到客户端数据97ff2af7-0387-48f6-9507-71ab1360f87c
+[INFO]2020-04-06 17:19:35,338 MyServiceImpl.java - 双向流：收到客户端数据592ad10d-df7f-4b85-903b-bd83d2384d2c
+[INFO]2020-04-06 17:19:35,342 MyServiceImpl.java - 双向流：收到客户端数据2dc7004b-94ce-4357-b6eb-30ff4ee77236
+[INFO]2020-04-06 17:19:35,356 GrpcClientTest.java - 接收到服务端数据:5e6d63ba-3156-4b00-8727-3ce258a5c408
+[INFO]2020-04-06 17:19:35,357 GrpcClientTest.java - 接收到服务端数据:f8541487-9a65-42da-8897-fa1c5357b322
+[INFO]2020-04-06 17:19:35,358 GrpcClientTest.java - 接收到服务端数据:69bc37a7-0b9e-4440-bccf-44b85ba2dd1d
+[INFO]2020-04-06 17:19:35,360 GrpcClientTest.java - 接收到服务端数据:100c9f83-afb6-437f-bbea-98521dce65e2
+[ERROR]2020-04-06 17:19:41,215 MyServiceImpl.java - 发生错误
+io.grpc.StatusRuntimeException: CANCELLED: cancelled before receiving half close
+	at io.grpc.Status.asRuntimeException(Status.java:524)
+	at io.grpc.stub.ServerCalls$StreamingServerCallHandler$StreamingServerCallListener.onCancel(ServerCalls.java:275)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closedInternal(ServerCallImpl.java:353)
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.closed(ServerCallImpl.java:341)
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1Closed.runInContext(ServerImpl.java:867)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:123)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO]2020-04-12 11:59:01,069 GrpcServer.java - Server started, listening on 8899
+[INFO]2020-04-12 11:59:02,067 MyServiceImpl.java - 接收到客户端信息:yuejia
+[INFO]2020-04-12 11:59:08,003 MyServiceImpl.java - 接收到客户端信息:yuejia
+[INFO]2020-04-12 11:59:10,783 MyServiceImpl.java - 接收到客户端信息:yuejia
+[ERROR]2020-04-12 14:57:11,174 GrpcServer.java - JVM shutdown. Stop the server
+[INFO]2020-04-12 17:50:32,411 GrpcClientTest.java - 测试简单RPC
+[INFO]2020-04-12 17:50:32,506 GrpcClientTest.java - 1.请求服务端getRealName，参数：小林
+[INFO]2020-04-12 17:50:39,712 GrpcClientTest.java - 1.获得服务端响应：我是老章
+[INFO]2020-04-15 21:10:29,124 NioTest5.java - 1
+[INFO]2020-04-15 21:10:29,131 NioTest5.java - 1
+[INFO]2020-04-15 21:10:29,132 NioTest5.java - 1
+[INFO]2020-04-15 21:10:29,135 NioTest5.java - 0.01
+[INFO]2020-04-15 21:10:29,135 NioTest5.java - 3
+[INFO]2020-04-15 21:11:00,977 NioTest5.java - 1
+[INFO]2020-04-15 21:11:00,981 NioTest5.java - 2
+[INFO]2020-04-15 21:11:00,982 NioTest5.java - 你
+[INFO]2020-04-15 21:11:00,984 NioTest5.java - 0.01
+[INFO]2020-04-15 21:11:00,984 NioTest5.java - 3
+[INFO]2020-04-15 21:15:56,750 NioTest6.java - 0
+[INFO]2020-04-15 21:15:56,758 NioTest6.java - 1
+[INFO]2020-04-15 21:16:43,788 NioTest6.java - 0
+[INFO]2020-04-15 21:16:43,793 NioTest6.java - 1
+[INFO]2020-04-15 21:16:43,793 NioTest6.java - 4
+[INFO]2020-04-15 21:16:43,794 NioTest6.java - 6
+[INFO]2020-04-15 21:16:43,794 NioTest6.java - 8
+[INFO]2020-04-15 21:16:43,795 NioTest6.java - 5
+[INFO]2020-04-15 21:16:43,795 NioTest6.java - 6
+[INFO]2020-04-15 21:16:43,795 NioTest6.java - 7
+[INFO]2020-04-15 21:16:43,810 NioTest6.java - 8
+[INFO]2020-04-15 21:16:43,810 NioTest6.java - 9

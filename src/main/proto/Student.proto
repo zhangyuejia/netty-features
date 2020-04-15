@@ -1,0 +1,39 @@
+syntax = "proto3";
+package io.zhangyj.proto3;
+option java_package = "io.zhangyj.proto3";
+option java_outer_classname = "StudentProto";
+option java_multiple_files = true;
+
+service MyService {
+    rpc GetRealName(MyRequest) returns (MyResponse){}
+    rpc GetStudentsByAge(StudentRequest) returns (stream StudentResponse){}
+    rpc GetStudentWrapperByAge(stream StudentRequest) returns (StudentResponseList) {}
+    rpc biTalk(stream BiRequest) returns (stream BiResponse) {}
+}
+message MyRequest {
+    string userName = 1;
+}
+message MyResponse {
+    string realName = 1;
+}
+
+message StudentRequest{
+    int32 age = 1;
+}
+
+message StudentResponse{
+    int32 age = 1;
+    string name = 2;
+}
+
+message StudentResponseList{
+    repeated StudentResponse response = 1;
+}
+
+message BiRequest {
+    string uuid = 1;
+}
+
+message BiResponse {
+    string uuid = 1;
+}
