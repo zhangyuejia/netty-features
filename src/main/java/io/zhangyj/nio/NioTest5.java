@@ -24,7 +24,5 @@ public class NioTest5 {
         log.info(buffer.getChar() + "");
         log.info(buffer.getDouble() + "");
         log.info(buffer.getLong() + "");
-
-
     }
 }

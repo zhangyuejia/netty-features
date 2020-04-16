@@ -1,7 +1,6 @@
 package io.zhangyj.nio;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,8 +14,7 @@ import java.nio.channels.FileChannel;
 @Slf4j
 public class NioTest4 {
 
-    @Test
-    public void test() throws Exception {
+    public static void main(String[] args) throws Exception{
         File file = new File("NioTest3.txt");
         File fileCopy = new File("NioTest4.txt");
         if(!file.exists()){
@@ -45,6 +43,5 @@ public class NioTest4 {
         }
         inChannel.close();
         outChannel.close();
-
     }
 }

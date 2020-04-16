@@ -1,7 +1,5 @@
 package io.zhangyj.nio;
 
-import org.junit.Test;
-
 import java.nio.IntBuffer;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -10,8 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class NioTest1 {
 
-    @Test
-    public void test(){
+    public static void main(String[] args) {
         IntBuffer buffer = IntBuffer.allocate(10);
         for (int i=0; i<buffer.capacity(); i++){
             buffer.put(ThreadLocalRandom.current().nextInt(10));
