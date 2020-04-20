@@ -11,5 +11,6 @@ public class NioTest7 {
         ByteBuffer buffer = ByteBuffer.allocate(10);
         ByteBuffer readOnlyBuffer = buffer.asReadOnlyBuffer();
 //        readOnlyBuffer.put(0, (byte) 1);
+        ByteBuffer.allocateDirect(10);
     }
 }

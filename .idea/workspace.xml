@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485985d1-5b3f-4a4a-82f7-508a1af70be5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NioTest8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/ByteMsgHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/netty/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +102,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>set</find>
-      <find>setName</find>
-      <find>PhoneNumber</find>
-      <find>PhoneType</find>
-      <find>AddPerso</find>
-      <find>addPerson</find>
-      <find>shire</find>
-      <find>getStudentsByAge</find>
-      <find>mark</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -132,6 +125,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/io/zhangyj/proto3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -149,13 +145,14 @@
       <recent name="io.zhangyj.netty.sisth8protobuf.protobuf" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.zhangyj.netty" />
       <recent name="io.zhangyj.netty.sisth8protobuf.client" />
       <recent name="io.zhangyj.netty.sisth8protobuf.server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NioTest7">
-    <configuration name="NioTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest5" />
+  <component name="RunManager" selected="Application.NioTest13">
+    <configuration name="NioTest10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest10" />
       <module name="netty-features.main" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +164,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest6" />
+    <configuration name="NioTest12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest12" />
+      <module name="netty-features.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.zhangyj.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioTest13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest13" />
       <module name="netty-features.main" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioTest2.testNioRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NioTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest8" />
       <module name="netty-features.main" />
       <extension name="coverage">
         <pattern>
@@ -201,44 +212,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.zhangyj.nio" />
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest2" />
-      <option name="METHOD_NAME" value="testNioRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NioTest4.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty-features.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.zhangyj.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.zhangyj.nio" />
-      <option name="MAIN_CLASS_NAME" value="io.zhangyj.nio.NioTest4" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NioTest5" />
-      <item itemvalue="Application.NioTest6" />
       <item itemvalue="Application.NioTest7" />
-      <item itemvalue="JUnit.NioTest2.testNioRead" />
-      <item itemvalue="JUnit.NioTest4.test" />
+      <item itemvalue="Application.NioTest8" />
+      <item itemvalue="Application.NioTest10" />
+      <item itemvalue="Application.NioTest12" />
+      <item itemvalue="Application.NioTest13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NioTest13" />
+        <item itemvalue="Application.NioTest12" />
+        <item itemvalue="Application.NioTest8" />
+        <item itemvalue="Application.NioTest10" />
         <item itemvalue="Application.NioTest7" />
-        <item itemvalue="Application.NioTest6" />
-        <item itemvalue="Application.NioTest5" />
-        <item itemvalue="JUnit.NioTest4.test" />
-        <item itemvalue="JUnit.NioTest2.testNioRead" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +278,9 @@
       <workItem from="1586827712754" duration="898000" />
       <workItem from="1586856910263" duration="6466000" />
       <workItem from="1586955144563" duration="2518000" />
-      <workItem from="1586999984956" duration="438000" />
+      <workItem from="1586999984956" duration="4546000" />
+      <workItem from="1587086676459" duration="15228000" />
+      <workItem from="1587259428264" duration="19232000" />
     </task>
     <task id="LOCAL-00001" summary="提交thrift">
       <created>1585289052204</created>
@@ -307,69 +300,92 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交thrift" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1587114392160">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1587114392160" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1587115521285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587115521285" />
+    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587259716415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="279" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1587259716415" />
     <state x="524" y="112" key="#xdebugger.evaluate" timestamp="1586869605796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="112" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1586869605796" />
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1586957673835">
+    <state width="468" height="466" key="DebuggerActiveHint" timestamp="1587274518763">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586957673835" />
-    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1586957673835">
+    <state width="468" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587274518763" />
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom" timestamp="1587303388502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586957673835" />
-    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1586957673835">
+    <state width="1493" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587303388502" />
+    <state width="1493" height="235" key="GridCell.Tab.0.center" timestamp="1587303388502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586957673835" />
-    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1586957673835">
+    <state width="1493" height="235" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587303388502" />
+    <state width="1493" height="235" key="GridCell.Tab.0.left" timestamp="1587303388502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586957673835" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586875040517">
+    <state width="1493" height="235" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587303388502" />
+    <state width="1493" height="235" key="GridCell.Tab.0.right" timestamp="1587303388502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586875040517" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586875040516">
+    <state width="1493" height="235" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587303388502" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587290580257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586875040516" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586875040516">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587290580257" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587290580257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586875040516" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586875040516">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587290580257" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587290580257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586875040516" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587290580257" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587290580257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587290580257" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1587291271898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1587291271898" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1586868838189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586868838189" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1587261808288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1587261808288" />
     <state x="464" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode" timestamp="1586868489415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="464" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1586868489415" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586874751680">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1587268792688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586874751680" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587268792688" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587266511323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587266511323" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/zhangyj/nio/NioTest13.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
