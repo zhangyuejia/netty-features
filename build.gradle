@@ -13,8 +13,9 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
-    maven{ url'http://maven.aliyun.com/nexus/content/groups/public/'
-        }
+    maven{
+        url'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
     mavenCentral()
 }
 
@@ -32,6 +33,17 @@ dependencies {
 }
 
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+jar {
+    from {
+        //添加依懒到打包文件
+        //configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtime.collect{zipTree(it)}
+    }
+    manifest {
+        attributes 'Main-Class': "io.zhangyj.nettyapp.largeconns.Server"
+    }
+}
 
 protobuf {
     // 配置生成的proto3代码路径
